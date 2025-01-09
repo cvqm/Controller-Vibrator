@@ -1,4 +1,2 @@
 # Controller-Vibrator
-Vibrates controller or something.
-
-Please don't use this for bad reasons 😨
+2am shits n gigs project
