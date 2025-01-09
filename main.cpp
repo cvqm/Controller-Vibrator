@@ -1,3 +1,6 @@
+//-- To use this terrible hunk of garbage, whilst the application is open hold down 'x' for results.
+//-- I also haven't touched this in 2 months and can't overly remember how well it worked.
+
 #include <Windows.h>
 #include <Xinput.h>
 #include <iostream>
@@ -14,6 +17,8 @@ void Vibration(int ctrlId, float left_motor, float right_motor) {
 
     XInputSetState(ctrlId, &recoil);
 }
+
+//-- Shitty main function (im still unsure what i was on)
 
 int main() {
     SetConsoleTitle(TEXT("Controller Vibrator"));
